@@ -1,0 +1,10 @@
+.idea/
+.DS_Store
+*.swp
+gitit-users
+gitit.conf
+gitit.log
+static/
+templates/
+wikidata/
+

@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  wiki:
+    build:
+      context: .
+    image: gitit 
+    volumes:
+      - .:/data
+    ports:
+      - 5001:5001
+
